@@ -1,0 +1,40 @@
+body {
+	font-family: Comic Sans, sans-serif;
+	color: red;
+	text-align: center;
+	font-size: 48px}
+
+ img {
+ 	align-content: center;
+ }
+
+.button_container {
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				text-align: center;
+			}
+
+ a#btn_this {
+				display: inline-block;
+				height: 55px;
+				box-sizing: border-box;
+				border-radius: 10px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 0 10px 0 10px;
+				background-color: fff;
+				border: 2px solid fff;
+				color: red;
+				font-size: 48px;
+				font-family: Comic Sans, sans-serif;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+
+a#btn_this:hover {
+		background-color: red;
+		border: 2px solid red;
+		color: #fff;
+		font-weight: 700;
+		transition: all 0.3s;
+			}
